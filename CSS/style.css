@@ -1,0 +1,49 @@
+*{
+    margin: auto;
+    padding: 0px;
+    width: 1024px;
+font-family: Arial, Helvetica, sans-serif;}
+.trai{
+    /* background-color: antiquewhite; */
+    width: 60%;
+    height: 500px;
+    float: left;
+}
+.phai{
+    /* background-color: aqua; */
+    width: 40%;
+    height: 500px;
+    float: right;
+}
+.menu {
+    list-style: none;
+    text-align:center ;
+    font-size: 30px;
+
+}
+.menu li{
+    display: inline;
+    padding-left: 30px;
+
+}
+.menu li a {
+    text-decoration: none;
+    color: gold;
+}
+.menu li a:hover {
+   color: lightsalmon;
+   background-color: #fff;
+   border-radius: 30px;
+}
+footer{
+    background-color: aquamarine ;
+}
+.menuanh{
+    width: 20%;
+    padding-bottom: 30px;
+    margin-top: 50px;
+    padding-left: 30px;
+}
+header{
+    height: 50px;
+}

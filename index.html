@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/demo.css">
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+</head>
+<body>
+  <div class="option">
+
+    <img src="Img/lg.gif" alt="">
+    <input type="submit" value="Tìm kiếm"  class="go">
+
+    <input type="search" placeholder="Sản phẩm bạn muốn tìm?" class="sreach">
+    </div>
+    <header>
+        
+      <img src="https://lh3.googleusercontent.com/3HHR6hRzGFUswNn9lKrwzLf8_VPH9VZbqugmoyzbe15a9xOLrhjYbkgyut2nowkG8dBRbsU8jxJpCqJNHFG9G7lbFrcy7Bo=w1920-rw" alt="">
+
+    </header>
+
+      <div class="info-top">
+        <marquee behavior="alternate">
+            Hệ thống linh kiện máy tính Hoàng Nhân - Hàng đầu thế giới
+        </marquee>
+
+
+    </div>
+
+
+  
+
+<div class="content">
+
+    
+</div>
+   
+    
+  
+      
+    <footer>
+      <button id="popup-btn"> Click vào để xem cách liên hệ </button>
+    <div class="popup">
+    <div class="popup-content">
+    <span class="close-btn">&times;</span>
+    <p>Bạn cần tư vấn hãy liên hệ với chúng tôi: <br/>
+      Số điện thoại: 0842763900 <br/>
+      Email: support@hoangnhanpc.tk <br/>
+      Địa chỉ: Việt Nam
+    
+    </p>
+    </div>
+    </div>
+    </footer>
+    
+    
+
+      
+</body>
+<script>
+  let modalBtn = document.getElementById("popup-btn");
+  let modal = document.querySelector(".popup");
+  let closeBtn = document.querySelector(".close-btn");
+  // Hiển thị popup khi nhấp chuột vào button
+  modalBtn.onclick = function(){
+  modal.style.display = "block"
+  }
+  // Đóng popup khi ấn vào nút đóng
+  closeBtn.onclick = function(){
+  modal.style.display = "none"
+  }
+  // Đóng khi nhấp chuột vào bất cứ khu vực nào trên màn hình
+  window.onclick = function(e){
+  if(e.target == modal){
+  modal.style.display = "none"
+  }
+  }
+  </script>
+
+
+</html> 
