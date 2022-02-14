@@ -1,0 +1,238 @@
+.container{
+    max-width: 1024px;
+    margin: 0  auto;
+}
+header{
+    height: 56px;
+
+}
+header img{
+    width: 1024px;
+
+}
+.info-top{
+    height: 60px;
+    background-color: #1435c3;
+
+
+}
+.info-top marquee {
+    font-size: 25px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 50px;
+}
+.info-top marquee:hover{
+    color: aqua;
+}
+.option{
+    height: 80px;
+    margin-top: 10px;
+
+}
+.option img{
+    height: 80px;
+    width: auto;
+    margin-right: 50px;
+    float: left;
+
+}
+.content{
+    height: 500px;
+    
+background-image: url(../Img/rsz_body1.png);
+
+}
+footer{
+    height: 150px;
+    background-color: blue;
+    color: #ffffff;
+    
+ 
+}
+header img{
+    height: 100%;
+   
+}
+
+.sreach{
+    width: ;
+    margin-top: 20px;
+margin-left:20px ;  
+  width: 35%;
+    height: 30px;
+    float: left;
+ 
+}
+.go{
+    margin-top: 20px;
+    margin-right:160px ;  
+    width: 10%;
+    height: 30px;
+    background-color: aquamarine;
+    border: 0px;
+    cursor: pointer;
+    float: right;
+}
+footer #popup-btn{
+    border:  0px;
+    height: 50px;
+    font-variant: small-caps;
+    font-size: 20px;
+    width: 100%;
+
+}
+footer #popup-btn:hover{
+    color: aqua;
+}
+.popup {
+    display: none;
+    position: fixed;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.5);
+    }
+    .popup-content {
+    position: relative;
+    background-color: #FAFAFA;
+    padding: 15px;
+    margin: auto;
+    width: 70%;
+    }
+    .close-btn {
+    float: right;
+    color: #2E2E2E;
+    font-size: 25px;
+    font-weight: 700;
+    }
+    .close-btn:hover {
+    color: #D2D2D2;
+    }
+
+    #menu{
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 10px;
+        width: 15%;
+        float: left;
+        margin-left: 50px;
+        margin-top: 50px;
+        
+    } .main-menu li ul{
+        display: none;
+        position: absolute;
+        padding-left: 20px;
+
+    }
+    .main-menu li ul a{
+        font-size: 15px;
+        
+    }
+    .main-menu li:hover > ul{
+        display: block;
+        background-color: rgba(255, 255, 255, 1);
+        width: 100%;
+        color: #000;
+        
+    }
+    .main-menu{
+        position: relative;
+      
+    }
+    .main-menu a{
+        font-size: 15px;
+        text-decoration: none;
+        color: #000;
+        font-weight: bold;
+    }
+    #menu li{
+        list-style: none;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        
+      
+
+        
+    }
+   
+    /* .sp-seo{
+        float: right;
+    }
+    .sp-seo h1{
+        background-color: rgba(255, 255, 255, 0.5);
+}
+    .img-seo{
+        width: 200px;
+        height: 100px;
+    }
+    .sp-seo h2{
+ } */
+ .noti{
+     float: right;
+     width: 200px;
+     padding-right: 10px;
+     padding-top: 30px;
+  
+ }
+ .noti img{
+     width: 100%;
+     height: 200px;
+     
+ }
+ .noti img{
+    -webkit-transform:scale(0.8); /*Webkit: Thu nhỏ kích thước ảnh còn 0.8 so với ảnh gốc*/
+    -moz-transform:scale(0.8); /*Thu nhỏ đối với Mozilla*/
+    -o-transform:scale(0.8); /*Thu nhỏ đối với Opera*/
+    -webkit-transition-duration: 1s; /*Webkit: Thời gian phóng to, nhỏ ảnh*/
+    -moz-transition-duration: 0.5s; /*Như trên*/
+    -o-transition-duration: 0.5s; /*Như trên*/
+    opacity: 1; /*Độ mờ của hình ảnh*/
+    margin: 0 10px 5px 0; /*căn đều giữa ảnh*/
+    }
+  .noti img:hover{
+    -webkit-transform:scale(1.1); /*Webkit: Tăng kích cỡ ảnh lên 1.1 lần*/
+    -moz-transform:scale(1.1); 
+    -o-transform:scale(1.1); 
+    box-shadow:0px 0px 30px gray; /*Đổ bóng bằng CSS3*/
+    -webkit-box-shadow:0px 0px 30px gray;
+    -moz-box-shadow:0px 0px 30px gray; 
+    opacity: 1; /*Độ mờ của hình ảnh*/
+    }
+    @-webkit-keyframes my {
+        0% { color: #F8CD0A; } 
+        50% { color: #fff;  } 
+        100% { color: #F8CD0A;  } 
+    }
+    @-moz-keyframes my { 
+        0% { color: #F8CD0A;  } 
+        50% { color: #fff;  }
+        100% { color: #F8CD0A;  } 
+    }
+    @-o-keyframes my { 
+        0% { color: #F8CD0A; } 
+        50% { color: #fff; } 
+        100% { color: #F8CD0A;  } 
+    }
+    @keyframes my { 
+        0% { color: #F8CD0A;  } 
+        50% { color: #fff;  }
+        100% { color: #F8CD0A;  } 
+    } 
+    .info-top {
+            background:#3d3d3d;
+            font-size:25px;
+            font-weight:bold;
+        -webkit-animation: my 700ms infinite;
+        -moz-animation: my 700ms infinite; 
+        -o-animation: my 700ms infinite; 
+        animation: my 700ms infinite;
+       
+    text-align: center;
+    color: #ffffff;
+    line-height: 50px;
+    
+   }
+    .
