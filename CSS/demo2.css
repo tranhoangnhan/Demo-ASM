@@ -7,7 +7,7 @@ header{
 
 }
 header img{
-    width: 1024px;
+    max-width: 1024px;
 
 }
 .info-top{
@@ -119,7 +119,7 @@ footer #popup-btn:hover{
         width: 15%;
         float: left;
         margin-left: 50px;
-        margin-top: 50px;
+        margin-top: 10px;
         
     } .main-menu li ul{
         display: none;
@@ -133,7 +133,9 @@ footer #popup-btn:hover{
     }
     .main-menu li:hover > ul{
         display: block;
-        background-color: rgba(255, 255, 255, 1);
+        margin-left: 116px;
+
+        background-color: rgba(255, 255, 255, 0.5);
         width: 100%;
         color: #000;
         
@@ -141,6 +143,8 @@ footer #popup-btn:hover{
     .main-menu{
         position: relative;
       
+    }
+    .main-menu ul li{
     }
     .main-menu a{
         font-size: 15px;
@@ -172,14 +176,14 @@ footer #popup-btn:hover{
  } */
  .noti{
      float: right;
-     width: 200px;
+     width: 250px;
      padding-right: 10px;
      padding-top: 30px;
   
  }
  .noti img{
      width: 100%;
-     height: 200px;
+     height: 210px;
      
  }
  .noti img{
